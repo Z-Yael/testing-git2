@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div style="display: flex; flex-direction: column">
-      <div><h2>This is my shopping list web app.</h2></div>
+    <div class="wrapper">
+      <div>
+        <h2>This is my shopping list web app.</h2>
+      </div>
       <div class="container">
         <input
           type="text"
@@ -20,14 +22,6 @@
           placeholder="Add a product..."
         />
         <div class="shoppingListContainer"></div>
-      </div>
-      <div>
-        <button
-          class="button"
-          onclick="alert('You can do it. You can fucking do it.')"
-        >
-          click me
-        </button>
       </div>
     </div>
     <script src="script.js"></script>
